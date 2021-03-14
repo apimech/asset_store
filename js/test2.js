@@ -1,2 +1,2 @@
-var testone_html = `<div id="div_testtwo"><ul><li>Test one</li></ul></div>`;
-$("body").append(testtwo_html);
+var testtwoHtml = `<div id="div_testtwo"><ul><li>Test two</li></ul></div>`;
+$("body").append(testtwoHtml);
