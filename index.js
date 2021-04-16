@@ -23,6 +23,7 @@ app.get('/:dir/:file', function (req, res) {
 app.use(function(req, res, next) {
     res.status(404).send("Not Found");
 });
+ 
 
 function file_exists(file) {
     try {
